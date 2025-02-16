@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f7fe2312-5c50-4334-b348-14c84ac98c09" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/job-assignment-frontend-engineer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/apiClient.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/constants.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/endpoints.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/hooks/articles/useFavoriteArticle.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/hooks/articles/useUnfavoriteArticle.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/hooks/profile/useFollowProfile.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/hooks/profile/useUnfollowProfile.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/hooks/user/useUserLogin.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/queries/articles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/queries/profile.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/queries/user.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/queryClient.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/queryKeys.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/types/article.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/types/profile.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/types/response.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/types/user.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/UserIcon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/articles/Feed.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/articles/Feeds.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/articles/__tests__/utils.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/articles/utils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/AppLayout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/Footer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/error-boundary/ErrorBoundary.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/error-page/ErrorPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/NavItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/ProfileItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/loading-overlay/LoadingOverlay.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/AuthProvider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/Article.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/Editor.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/Home.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/Login.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/Profile.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/Settings.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/PrivateRoute.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/Router.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/appRoutes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Article.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArticleList.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Editor.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LoginRegister.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Logout.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Profile.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Settings.tsx" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2sqhKb0OvqrQLysILyzXetmSD9J" />
+  <component name="ProjectViewState">
+    <option name="compactDirectories" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/semen.kliuchko/Desktop/job-assignment-frontend-engineer",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "/Users/semen.kliuchko/Desktop/job-assignment-frontend-engineer/node_modules/react-scripts",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Users/semen.kliuchko/Desktop/job-assignment-frontend-engineer/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/header" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/features" />
+      <recent name="$PROJECT_DIR$/src/api/hooks/user" />
+      <recent name="$PROJECT_DIR$/src/features/login" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Jest.formatDate">
+    <configuration name="formatDate" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/components/articles/__tests__/utils.test.ts" />
+      <test-names>
+        <test-name value="formatDate" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="formatDate.formats a valid date and handles invalid input" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/components/articles/__tests__/utils.test.ts" />
+      <test-names>
+        <test-name value="formatDate" />
+        <test-name value="formats a valid date and handles invalid input" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="renders conduit link" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/App.test.tsx" />
+      <test-names>
+        <test-name value="renders conduit link" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.formatDate" />
+        <item itemvalue="Jest.formatDate.formats a valid date and handles invalid input" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="Jest.renders conduit link" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f7fe2312-5c50-4334-b348-14c84ac98c09" name="Changes" comment="" />
+      <created>1739188948849</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1739188948849</updated>
+      <workItem from="1739188949918" duration="51040000" />
+      <workItem from="1739723271384" duration="17519000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
