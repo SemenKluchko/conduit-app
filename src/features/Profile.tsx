@@ -4,14 +4,14 @@ import { queryKeys } from "api/queryKeys";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import {getProfile} from "api/queries/profile";
 import UserIcon from "assets/icons/UserIcon.svg";
-import {useFollowProfile } from "api/hooks/profile/useFollowProfile";
-import {useUnfollowProfile } from "api/hooks/profile/useUnfollowProfile";
-import {appRoutes } from "routes/appRoutes";
-import {useAuth } from "context/AuthProvider";
+import { useFollowProfile } from "api/hooks/profile/useFollowProfile";
+import { useUnfollowProfile } from "api/hooks/profile/useUnfollowProfile";
+import { appRoutes } from "routes/appRoutes";
+import { useAuth } from "context/AuthProvider";
 import LoadingOverlay from "components/loading-overlay/LoadingOverlay";
 import { getArticles } from "api/queries/articles";
 import FeedList from "components/articles/Feeds";
-import {getUser} from "api/queries/user";
+import { getUser } from "api/queries/user";
 
 export const Profile: React.FC = () => {
   const { login } = useAuth();
@@ -19,7 +19,7 @@ export const Profile: React.FC = () => {
   const queryCache = useQueryClient();
   const { username = '' } = useParams<{ username: string }>();
   const [isFavorited, setIsFavorited] = useState(false);
-
+  
   const { data, isLoading: isProfileLoading } = useQuery(
       [queryKeys.getProfile, { username }],
       getProfile,

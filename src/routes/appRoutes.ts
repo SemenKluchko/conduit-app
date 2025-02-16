@@ -1,4 +1,3 @@
-
 export const appRoutes = {
     main: '/',
     newArticle: '/editor',
@@ -11,4 +10,3 @@ export const appRoutes = {
     editor: '/editor',
     register: '/register',
 };
-

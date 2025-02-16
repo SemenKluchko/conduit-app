@@ -15,8 +15,6 @@ import { PrivateRoute } from "routes/PrivateRoute";
 import {Article} from "features/Article";
 import { Editor } from "features/Editor";
 
-
-
 export const Router = () => {
     const { login } = useAuth();
     const { pathname } = useLocation();

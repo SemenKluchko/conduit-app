@@ -4,69 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7fe2312-5c50-4334-b348-14c84ac98c09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/job-assignment-frontend-engineer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/apiClient.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/constants.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/endpoints.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/hooks/articles/useFavoriteArticle.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/hooks/articles/useUnfavoriteArticle.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/hooks/profile/useFollowProfile.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/hooks/profile/useUnfollowProfile.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/hooks/user/useUserLogin.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/queries/articles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/queries/profile.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/queries/user.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/queryClient.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/queryKeys.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/types/article.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/types/profile.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/types/response.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/types/user.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/UserIcon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/articles/Feed.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/articles/Feeds.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/articles/__tests__/utils.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/articles/utils.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/AppLayout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/Footer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/error-boundary/ErrorBoundary.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/error-page/ErrorPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/NavItem.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/ProfileItem.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/loading-overlay/LoadingOverlay.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/context/AuthProvider.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/context/types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/Article.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/Editor.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/Home.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/Login.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/Profile.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/Settings.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/PrivateRoute.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/Router.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/appRoutes.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+    <list default="true" id="f7fe2312-5c50-4334-b348-14c84ac98c09" name="Changes" comment="patch">
       <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Article.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArticleList.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Editor.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LoginRegister.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Logout.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Profile.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Settings.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/apiClient.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/apiClient.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/constants.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/endpoints.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/endpoints.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/hooks/articles/useFavoriteArticle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/hooks/articles/useFavoriteArticle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/hooks/articles/useUnfavoriteArticle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/hooks/articles/useUnfavoriteArticle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/hooks/profile/useFollowProfile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/hooks/profile/useFollowProfile.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/hooks/profile/useUnfollowProfile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/hooks/profile/useUnfollowProfile.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/queries/articles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/queries/articles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/queries/profile.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/queries/profile.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/queryKeys.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/queryKeys.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/types/article.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/types/article.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/types/profile.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/types/profile.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/types/response.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/types/response.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/Home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/Login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/Login.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/Profile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/Profile.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/PrivateRoute.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/PrivateRoute.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Router.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Router.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/appRoutes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/appRoutes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
+    <list id="19324d3b-cf08-425b-b2a2-ca06ef1ccbdc" name="patch" comment="patch" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,7 +68,8 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs.jest.jest_package": "/Users/semen.kliuchko/Desktop/job-assignment-frontend-engineer/node_modules/react-scripts",
     "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "/Users/semen.kliuchko/Desktop/job-assignment-frontend-engineer/node_modules/typescript/lib",
+    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
+    "vcs.patch.path": "/Users/semen.kliuchko/Desktop",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -180,16 +146,21 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="f7fe2312-5c50-4334-b348-14c84ac98c09" name="Changes" comment="" />
+      <changelist id="19324d3b-cf08-425b-b2a2-ca06ef1ccbdc" name="patch" comment="patch" />
       <created>1739188948849</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1739188948849</updated>
       <workItem from="1739188949918" duration="51040000" />
-      <workItem from="1739723271384" duration="17519000" />
+      <workItem from="1739723271384" duration="20783000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="patch" />
+    <option name="LAST_COMMIT_MESSAGE" value="patch" />
   </component>
 </project>

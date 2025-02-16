@@ -56,7 +56,3 @@ export const unfavoriteArticle = async ({ slug }: { slug: string }): Promise<Art
 
     return data;
 };
-
-
-
-

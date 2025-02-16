@@ -5,7 +5,7 @@ import { useUserLogin } from 'api/hooks/user/useUserLogin';
 import Cookies from "js-cookie";
 import { appRoutes } from "routes/appRoutes";
 import { TOKEN_KEY } from "api/constants";
-import {useAuth} from "context/AuthProvider";
+import { useAuth } from "context/AuthProvider";
 
 export const Login: React.FC = () => {
   const { setLogin } = useAuth();
@@ -27,7 +27,7 @@ export const Login: React.FC = () => {
           onError: ({ errors }) => setError(errors.body),
         });
       },
-      [mutate, navigate, email, password]
+      [mutate, navigate, email, password, setLogin]
   );
   return (
       <div className="auth-page">

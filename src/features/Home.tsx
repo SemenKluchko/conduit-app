@@ -7,7 +7,7 @@ import FeedList from "components/articles/Feeds";
 
 export const  Home: React.FC = () => {
   const { login } = useAuth();
-  const [isGlobal, setIsGlobal] = useState(!login);
+  const [isGlobal, setIsGlobal] = useState(true);
 
   const { data: articles, isLoading: isArticlesLoading } = useQuery(
       [queryKeys.getArticles, {}],
