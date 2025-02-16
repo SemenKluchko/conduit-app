@@ -10,6 +10,7 @@ services:
       - 3000:3000
     depends_on:
       - db
+    platform: linux/amd64
   db:
     image: mysql:8.0.25
     cap_add:
@@ -21,3 +22,4 @@ services:
       MYSQL_DATABASE: assignment
     ports:
       - 3306:3306
+    platform: linux/amd64
