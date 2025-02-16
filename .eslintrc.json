@@ -18,7 +18,7 @@
     "ecmaVersion": 2018
   },
   "plugins": [
-    "@typescript-eslint",
+    "react",
     "react-hooks"
   ],
   "settings": {
@@ -32,6 +32,14 @@
     "react/prop-types": "off",
     "react/react-in-jsx-scope": "off",
     "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn"
+    "react-hooks/exhaustive-deps": "warn",
+    "@typescript-eslint/no-unused-expressions": [
+      "error",
+      {
+        "allowShortCircuit": false,
+        "allowTernary": false,
+        "allowTaggedTemplates": false
+      }
+    ]
   }
 }
